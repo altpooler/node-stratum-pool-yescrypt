@@ -10,7 +10,8 @@
         "poolserver",
         "bitcoin",
         "litecoin",
-        "scrypt"
+        "scrypt",
+        "neoscrypt"
     ],
     "homepage": "https://github.com/altpooler/node-stratum-pool-yescrypt",
     "bugs": {
