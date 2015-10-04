@@ -51,7 +51,7 @@ Features
 * ✓ __Skein__ (Skeincoin [SKC])
 * ✓ __Groestl__ (Groestlcoin [GRS], Saffroncoin [SFR])
 * ✓ __Yescrypt__ (Unitus [UIS], GlobalBoostY[BSTY])
-* ✓ __Neoscrytp__ (Ufocoin [UFO], Feathercoin [FTC])
+* ✓ __Neoscrypt__ (Ufocoin [UFO], Feathercoin [FTC])
 * ✓ __Blake__ (Blakecoin [BLC],Saffroncoin [SFR])
 
 May be working (needs additional testing):
