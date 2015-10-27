@@ -45,19 +45,17 @@ Features
 * ✓ __Quark__ (Quarkcoin [QRK])
 * ✓ __X11__ (Darkcoin [DRK], Hirocoin, Limecoin)
 * ✓ __X13__ (MaruCoin, BoostCoin)
-* ✓ __X15__ (Minercoin)
 * ✓ __NIST5__ (Talkcoin)
 * ✓ __Keccak__ (Maxcoin [MAX], HelixCoin, CryptoMeth, Galleon, 365coin, Slothcoin, BitcointalkCoin)
 * ✓ __Skein__ (Skeincoin [SKC])
-* ✓ __Groestl__ (Groestlcoin [GRS], Saffroncoin [SFR])
-* ✓ __Yescrypt__ (Unitus [UIS], GlobalBoostY[BSTY])
-* ✓ __Neoscrypt__ (Ufocoin [UFO], Feathercoin [FTC])
-* ✓ __Blake__ (Blakecoin [BLC],Saffroncoin [SFR])
+* ✓ __Groestl__ (Groestlcoin [GRS])
 
 May be working (needs additional testing):
+* ? *Blake* (Blakecoin [BLC])
 * ? *Fugue* (Fuguecoin [FC])
 * ? *Qubit* (Qubitcoin [Q2C], Myriadcoin [MYR])
 * ? *SHAvite-3* (INKcoin [INK])
+* ? *Sha1* (Sha1coin [SHA], Yaycoin [YAY])
 
 Not working currently:
 * *Groestl* - for Myriadcoin
@@ -86,7 +84,7 @@ npm update
 Create the configuration for your coin:
 
 Possible options for `algorithm`: *sha256, scrypt, scrypt-jane, scrypt-n, quark, x11, keccak, blake,
-skein, groestl, fugue, shavite3, hefty1, yescrypt, neoscrypt or qubit*.
+skein, groestl, fugue, shavite3, hefty1, qubit, or sha1*.
 
 ```javascript
 var myCoin = {
